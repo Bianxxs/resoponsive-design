@@ -1,0 +1,261 @@
+/*PINAKANG KABUUAN NUNG WEBSITE*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient( #C0C0C0 25%, #FFBC 74%);
+    box-shadow: 20px auto;
+}
+
+
+.clearfix{
+    clear:both
+}
+
+/*parang pinakang bond-paper mo na paglalagyan ng resume*/
+.main{
+    height: 1150px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #684c6b;
+    margin: 20px auto
+
+
+}
+
+/*top section or upper part ng bondpaper mo(ito yung header ng bondpaper*/
+.top-section{
+    background-color: #291c2d;
+    text-align: center;
+    padding: 20px;
+}
+
+/*sa picture to na nilagay mo*/
+.profile{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+
+.content-box{
+    padding-left: 40px;
+}
+/*sa pangalan mo to na nasa header*/
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #c7bbc9;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 8px;   
+}
+
+/*para iba iba ang kulay nung name mo kasi bida bida ka*/
+.p1 span{
+    font-weight: 100;
+    color: #e9dbeb;
+}
+
+/*another paragraph na nasa header*/
+.p2{
+    font-size: 20px;
+    color: #e9dbeb;
+    margin: 0px;
+    margin-top: 5px;
+
+}
+
+.col-div-4{
+    height:881px;
+    width: 40%;
+    float: left;
+    background-color: #584454;
+}
+
+.col-div-8 {
+    width: 90%;
+    height:800px;
+    /* Remove float: left */
+}
+
+
+
+.line{
+    border: 1px solid #c7c7c7;
+    height: 878px;
+   
+    display: flex;
+}
+
+
+.col-div-8 .content-box {
+    flex: 1;
+    padding-left: 40px;
+    height:800px;
+    
+}
+.head{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:  #291c2d;
+    background: #e9dbeb ;
+    width:200px;
+    text-align: center;
+}
+
+.shoulder{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:  #291c2d;
+    background: #e9dbeb ;
+    text-align: center;
+
+    
+
+}
+
+.p3{
+    color: #e9dbeb;
+    margin-bottom:   -5px;
+    padding-right:20px;
+}
+
+.p5{
+    color:  #291c2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-size: 18px;
+}
+
+.fa{
+    color: #151b29;
+}
+
+.skills{
+    margin-left: -20px;
+    margin-bottom: 0px;
+
+}
+
+.skills li{
+    padding: 5px;
+    
+}
+
+.skills li span{
+    color:#e9dbeb;
+
+}
+
+.p-4{
+    font-size: 14px;
+    color: #291c2d;
+    font-size: 18px;
+    padding-top: 10px;
+   
+
+}
+
+.p-4 li{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.p6{
+    margin-top: 30px;
+    margin-left: -23px;
+    margin-right: -23px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    background: #e9dbeb ;
+}
+
+
+
+
+@media(max-width: 600px) {
+    .main {
+        width: 100%;
+        height: 840px; /* Adjusting width for smaller screens */
+    }
+    .col-div-4 {
+        width: 48%;
+        height:655px;/* Taking full width on smaller screens */
+    }
+    .col-div-8 .content-box{
+        margin-left: -25px;
+         /* Adjusting padding for smaller screens */
+    }
+
+    .line{
+        height: 655px;
+        display: flex;
+    }
+    .p5{
+        font-size: 9px;
+        padding: 2px;
+    }
+    .p2{
+        font-size: 12px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    .head{
+        font-size: 13px;
+        width:130px; 
+
+    }
+    .shoulder{
+        font-size: 13px;
+    }
+    .p-4{
+        font-size: 9px;
+    }
+    .p-4 li{
+        margin: 4px;
+        padding-top: 1px;
+        font-size: 9px;
+        margin-left: -20px;
+    }
+
+    .p6{
+        font-size: 8px;
+        margin-top: 30px;
+        margin-left: -10px;
+        margin-right: -10px;
+            
+        font-style: italic;
+        text-align: center;
+    }
+    .p1{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0px;
+        margin-top: 5px;   
+    }
+    .profile{
+        width: 105px;
+        border-radius: 50%;
+        margin-top: 3px;
+        height:95px ;
+    }
+    .p3{
+        font-size: 9px;
+        margin-bottom: 5px;
+        margin-left:3px ;
+    }
+
+    .skills li{
+        font-size: 9px;
+        padding: 7px;
+        
+    }
+    .content-box{
+        padding-left: 8px;
+    }
+
+}
